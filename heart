@@ -14,6 +14,7 @@ Section:NewToggle("\226\156\133 On / \226\157\140 Off", "", function(state)
     end
 end)
 local Tab = Window:NewTab("Dupe/Boath")
-local Section = Tab:NewSection("Dm " DimplesV#8669 " if need help")
+local Section = Tab:NewSection("Dm DimplesV#8669 if need help")
 Section:NewButton("\226\156\133 Dupe boath!", "", function()
   lib.Message.New("\226\157\140 FIX!")
+  end)
