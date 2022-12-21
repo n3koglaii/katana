@@ -2,11 +2,3 @@ local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChil
 for i = 1, 2 do
 lib.Message.New("🧩 Pls Equip Best Pet!")
 end
-for i = 1, 1000 do
-local args = {
-    [1] = "Я пeдaфил, eby maloletok. я юзаю читы!",
-    [2] = "All"
-}
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-end
