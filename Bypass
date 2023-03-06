@@ -1,0 +1,6 @@
+local aaaa = require(game.ReplicatedStorage.Library.Client)
+local bbbb = require(game:GetService("ReplicatedStorage").Library.Client.Network)
+local iiii = Network.Invoke
+local ffff = Network.Fire
+debug.setupvalue(Client.Network.Invoke, 1, function() return true end)
+debug.setupvalue(Client.Network.Fire, 1, function() return true end)
